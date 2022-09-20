@@ -1,0 +1,21 @@
+<mvc:View controllerName="project1.controller.DemoFiori"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+ 
+                 <VBox direction="Column" id="vbox0" justifyContent="Center" width="100%">
+						<items>
+       				<Label id="label3" text="hello Emrah test" textAlign="Center" width="100%"/>
+                    <Label id="label4" text="{ViewModel>/Welcometitletxt}" textAlign="Center" width="100%"/>
+						</items>
+					 
+
+ 
+
+                    </VBox>
+ 
+
+        <content />
+    </Page>
+</mvc:View>
+       
